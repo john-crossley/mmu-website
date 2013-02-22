@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en-gb"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en-gb"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en-gb"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en-gb"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title> Contact - John Crossley, Applied Web Design and Management</title>
+
+	<meta name="description" content="John Crossley’s applied website design page. This page shows off some of the work John Crossey has produced for both himself and university. John Crossley is studying web development at Manchester Metropolitan University.">
+	<meta name="author" content="John Crossley">
+	<meta name="keywords" content="applied website design, john crossley, manchester metropolitan university, web development, portfolio">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="stylesheets/base.css">
+	<link rel="stylesheet" href="stylesheets/stylesheet.css">
+
+	<!--// JavaScripts -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+</head>
+<body>
+
+	<!-- Skip to, I have hidden this using CSS it
+		still appears to screen readers -->
+	<div class="skipto">
+		<ul>
+			<li><a href="#navigation">skip to navigation</a></li>
+			<li><a href="#main_content">skip to main content</a></li>
+		</ul>
+	</div><!--/skipto-->
+
+	<div class="container">
+		<div class="sixteen columns">
+			<h1 class="remove-bottom">John Crossley</h1>
+			<nav id="navigation" role="navigation">
+				<ul>
+					<li><a href="http://www.ico.mmu.ac.uk/10426443/index.html" title="Home page">Home</a> /</li>
+					<li><a href="http://www.ico.mmu.ac.uk/10426443/blog.html" title="Blog page">Blog</a> /</li>
+					<li><a href="http://www.ico.mmu.ac.uk/10426443/portfolio.html" title="Portfolio page">Portfolio</a> /</li>
+					<li class="current"><a href="http://phpcodemonkey.com/university/contact.html" title="Contact page">Contact</a></li>
+				</ul>
+				<a href="http://phpcodemonkey.com" title="phpCodeMonkey's Website (Mine)">
+					<img src="images/phpcodemonkey.png" alt="phpCodeMobnkey Logo">
+				</a>
+			</nav>
+			<hr />
+		</div><!--/sixteen columns-->
+
+
+		<div class="two-thirds column" role="main" id="main_content">
+			<h3> Contact Me </h3>
+
+			<p>
+				The contact form below only returns the information you have submitted, if you would prefer to contact
+				me directly then please do so on the following email:
+				<a href="mailto:john.crossley@stu.mmu.ac.uk?subject=I%20love%20John%20because..." title="Contact John Crossley via his University Email">john.crossley@stu.mmu.ac.uk</a>
+			</p>
+
+			<form action="contact.php" method="post" accept-charset="utf-8" id="contact_form">
+				<fieldset>
+					<p>
+						<label for="name"><i class="required"></i>Name</label>
+						<input type="text" name="name" id="name" placeholder="John Doe">
+					</p>
+
+					<p>
+						<label for="email"><i class="required"></i>Email</label>
+						<input type="email" name="email" id="email" placeholder="john.doe@example.com">
+					</p>
+
+					<p>
+						<label for="website">Website (Optional)</label>
+						<input type="url" name="website" id="website" placeholder="http://phpcodemonkey.com/">
+					</p>
+
+					<p>
+						<label for="message"><i class="required"></i>Message</label>
+						<textarea name="message" id="message" cols="10" rows="10" placeholder="John's amazing because.."></textarea>
+					</p>
+
+					<p>
+						<label for="human">What's 2 + 2</label>
+						<input type="text" name="human" id="human" placeholder="Human?">
+					</p>
+
+					<p>
+						<input type="submit" name="submit" value="Contact">
+					</p>
+
+				</fieldset>
+			</form>
+
+		</div><!--/two-thirds column-->
+
+		<aside class="one-third column" role="complementary">
+			<h3> Where I Study </h3>
+			<img src="images/mmu.jpg" alt="Side Picture of Manchester Metropolitan University" width="268" height="379">
+			<ul class="social">
+				<li><a href="https://twitter.com/jonnothebonno"><img src="images/social/twitter.png" alt="Twitter (@JonnoTheBonno)"></a></li>
+				<li><a href="https://github.com/john-crossley"><img src="images/social/github.png" alt=""></a></li>
+				<li><a href="skype:JonnoTheBonno?call"><img src="images/social/skype.png" alt=""></a></li>
+				<li><a href="http://www.linkedin.com/profile/view?id=209821655&mp;trk=tab_pro"><img src="images/social/linkedin.png" alt=""></a></li>
+				<li><a href="https://forrst.com/people/JonnoTheBonno"><img src="images/social/forrst.png" alt=""></a></li>
+				<li><a href="https://plus.google.com/u/0/100259912392786762830/posts"><img src="images/social/google.png" alt=""></a></li>
+			</ul>
+			<address>
+				<p>
+					<strong> Geoffrey Manton Building </strong><br>
+					<span class="university-name"> Manchester Metropolitan University </span><br>
+					<span class="street-name"> Rosamund St West (off Oxford Road) </span><br>
+					<span class="city"> Manchester </span><br>
+					<span class="post-code"> M15 6LL </span>
+					<br>
+					<strong><a href="mailto:enquiries@mmu.ac.uk" title="Contact MMU">enquiries@mmu.ac.uk</a></strong><br>
+					<span><strong>Phone: </strong>+44 (0)161 247 2000</span><br>
+					<span><strong>Fax: </strong>+44 (0)161 247 6390</span>
+				</p>
+			</address>
+		</aside><!--/one-third column-->
+
+		<footer role="contentinfo">
+			<p>
+				&copy; <a href="http://www.mmu.ac.uk/" title="MMU homepage">Manchester Metropolitan University 2013</a> | <a href="http://www.mmu.ac.uk/legal/" title="MMU Legal notice">Legal Notice</a> | <a href="http://www.ico.mmu.ac.uk/feedback.html" title="Feedback form to comment on this web page">Feedback</a> | <a href="http://validator.w3.org/check?uri=referer" title="W3C HTML Validation Service" >HTML Validation</a>
+			</p>
+		</footer>
+
+	</div><!-- container -->
+
+	<script src="javascripts/app.js"></script>
+</body>
+</html>

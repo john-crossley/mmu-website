@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+
+	<!--// Basic Page -->
+	<meta charset="utf-8">
+	<!-- TemplateBeginEditable name="doctitle" -->
+	<title>Master Page - Building a Blog with Rails - John Crossley, MMU</title>
+	<!-- TemplateEndEditable -->
+	<meta name="description" content="John Crossley shows you how to build a simple blog using the Ruby on Rails framework.">
+	<meta name="author" content="John Crossley">
+
+	<!--// Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!--// CSS -->
+  <link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="../stylesheets/base.css">
+	<link rel="stylesheet" href="../stylesheets/master.css">
+
+	<!-- It's a must we need our amazing HTML5 Shim -->
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+
+	<!--// Primary Page Layout -->
+
+	<!-- Skip to, I've hidden this using CSS it
+		still appears to screen readers -->
+	<div class="skipto">
+		<ul>
+			<li><a href="#navigation">skip to navigation</a></li>
+			<li><a href="#main">skip to main content</a></li>
+		</ul>
+	</div><!--/skipto-->
+
+	<div class="container">
+
+		<div class="three columns sidebar">
+			<nav role="navigation" id="navigation">
+				<h3> <a href="../tutorial/index.html"><img src="../images/ruby.png" alt="Ruby-Lang Logo"></a> </h3>
+				<ul>
+					<!-- TemplateBeginEditable name="main_navigation" -->
+					<li><a href="../tutorial/index.html" class="active">Welcome</a></li>
+					<li><a href="../tutorial/introduction.html">Introduction</a></li>
+					<li><a href="../tutorial/setting_up.html">Setting Up</a></li>
+					<li><a href="../tutorial/first_scaffold.html">First Scaffold</a></li>
+					<li><a href="../tutorial/adding_comments.html">Adding Comments</a></li>
+					<li><a href="../tutorial/code_time.html">Code Time!</a></li>
+					<li><a href="../tutorial/style_me_up_baby.html">Style Me Up Baby</a></li>
+					<li><br></li>
+					<li><a href="../tutorial/further_reading.html">Further Reading</a></li>
+					<li><a href="../index.html">Back to Main Site</a></li>
+					<!-- TemplateEndEditable -->
+				</ul>
+			</nav>
+		</div><!--//three columns sidebar-->
+
+		<div class="twelve columns offset-by-one content">
+
+			<header role="banner">
+				<h1> Building a Blog with Rails </h1>
+				<hr class="large">
+			</header>
+
+			<div class="doc-block" role="main" id="main">
+
+				<h3>
+					<!-- TemplateBeginEditable name="main_content_header" -->
+					Hello.
+					<!-- TemplateEndEditable -->
+				</h3>
+
+					<!-- TemplateBeginEditable name="main_content_intro" -->
+					<p class="intro"> Ever wanted to build your own blog but didn't know where to start?
+					Well in this tutorial I will teach you how to develop a blog using Ruby on Rails. This tutorial
+					consists of 6 video steps that are easy to follow. </p>
+					<!-- TemplateEndEditable -->
+
+				<!-- TemplateBeginEditable name="main_content" -->
+				<h4> What do I need? </h4>
+				<p> All you need is a computer and a brain! I'm guessing your half way there because your
+						viewing this web page on the Internet so we can check the computer off the list. </p>
+
+				<h4> OMG, Trouble Installing Rails? </h4>
+				<p> Some people may encounter issues when setting up their rails development environment, trust me
+						this can be a nightmare. Don't worry I have provided some links that may help you.
+						<a href="http://rubyonrails.org/download" title="Official Installation Guide">http://rubyonrails.org/download</a>
+						for the guys on Mac <a href="http://net.tutsplus.com/tutorials/ruby/how-to-install-ruby-on-a-mac/" title="Ruby for Mac - Installation Instructions">http://net.tutsplus.com/tutorials/ruby/how-to-install-ruby-on-a-mac/</a> </p>
+
+				<h4> Ready for Awesomeness? </h4>
+				<p> Rails is a pretty awesome framework and ruby is a damn good language
+				so when your ready to get stuck in hit the button below. </p>
+				<!-- TemplateEndEditable -->
+
+				<!-- TemplateBeginEditable name="main_content_footer_nav" -->
+				<a href="../tutorial/introduction.html" class="button" title="Start the Tutorial">Introduction - Step 1</a>
+				<!-- TemplateEndEditable -->
+			</div><!--//doc-block-->
+
+			<hr>
+
+		</div><!--//twelve columns offset-by-one content-->
+
+		<div class="row">
+			<footer role="contentinfo">
+				<p>
+				&copy; <a href="http://www.mmu.ac.uk/" title="MMU homepage">Manchester Metropolitan University 2010</a> | <a href="http://www.mmu.ac.uk/legal/" title="MMU Legal notice">Legal Notice</a> | <a href="http://www.ico.mmu.ac.uk/feedback.html" title="Feedback form to comment on this web page">Feedback</a> | <a href="http://validator.w3.org/check?uri=referer" title="W3C HTML Validation Service" >HTML Validation</a>
+				</p>
+			</footer>
+		</div><!--//row-->
+
+	</div><!--//container-->
+
+	<script src="../javascripts/jquery.js"></script>
+	<script src="../javascripts/app.js"></script>
+
+<!--// End Document -->
+</body>
+</html>

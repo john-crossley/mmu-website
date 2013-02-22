@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en-gb"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en-gb"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en-gb"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en-gb"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title> Portfolio - John Crossley, Applied Web Design and Management</title>
+
+	<meta name="description" content="John Crossley’s applied website design page. This page shows off some of the work John Crossey has produced for both himself and university. John Crossley is studying web development at Manchester Metropolitan University.">
+	<meta name="author" content="John Crossley">
+	<meta name="keywords" content="applied website design, john crossley, manchester metropolitan university, web development, portfolio">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="stylesheets/base.css">
+	<link rel="stylesheet" href="stylesheets/stylesheet.css">
+
+	<!--// JavaScripts -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+</head>
+<body>
+
+	<!-- Skip to, I've hidden this using CSS it
+		still appears to screen readers -->
+	<div class="skipto">
+		<ul>
+			<li><a href="#navigation">skip to navigation</a></li>
+			<li><a href="#main_content">skip to main content</a></li>
+		</ul>
+	</div><!--/skipto-->
+
+	<div class="container">
+		<div class="sixteen columns">
+			<h1 class="remove-bottom">John Crossley</h1>
+			<nav id="navigation" role="navigation">
+				<ul>
+					<li><a href="http://www.ico.mmu.ac.uk/10426443/index.html" title="Home page">Home</a> /</li>
+					<li><a href="http://www.ico.mmu.ac.uk/10426443/blog.html" title="Blog page">Blog</a> /</li>
+					<li class="current"><a href="http://www.ico.mmu.ac.uk/10426443/portfolio.html" title="Portfolio page">Portfolio</a> /</li>
+					<li><a href="http://phpcodemonkey.com/university/contact.html" title="Contact page">Contact</a></li>
+				</ul>
+				<a href="http://phpcodemonkey.com" title="phpCodeMonkey's Website (Mine)">
+					<img src="images/phpcodemonkey.png" alt="phpCodeMobnkey Logo" width="114" height="114">
+				</a>
+			</nav>
+			<hr />
+		</div><!--/sixteen columns-->
+
+		<div class="row" role="main" id="main_content">
+			<h3> John Crossley's Portfolio </h3>
+			<p> Hello and welcome to my portfolio piece, here is where I showcase some of the work I have developed both in
+			and out of university. Some of the pieces are link to external websites. My work mainly focuses on web development
+			rather than design as this is where I produce better quality of work.	</p>
+		</div><!--/row-->
+
+		<div class="one-third column pf-block">
+			<a href="tutorial/index.html">
+				<img src="images/rails-blog-tutorial.jpg" alt="Building a Blog using Rails." width="300" height="400" />
+			</a>
+			<h4> Building a Blog with Rails</h4>
+			<p>
+				Ever wanted to build your own blog using the Rails framework? In this short and <strong>simple tutorial</strong>
+				you can have just that. No knowledge of Rails or the Ruby framework are required, it's that simple!
+			</p>
+		</div><!--/one-third column pf-block-->
+
+		<div class="one-third column pf-block">
+			<a href="http://phpcodemonkey.com/apps/simple-secure-login-v3/">
+ 				<img src="images/simple-secure-login.png" alt="Portfolio Piece One" width="300" height="400" />
+			</a>
+			<h4> Simple Secure Login .v3 </h4>
+			<p>
+				Simple and secure login, this was developed as a solution to those wanting
+				to manage users. It slots easily into any php driven website locking down any
+				page with one line of code.
+			</p>
+		</div><!--/one-third column pf-block-->
+
+		<div class="one-third column pf-block">
+			<a href="http://phpcodemonkey.com/apps/php-email-system/">
+ 				<img src="images/email-with-attachments.png" alt="Portfolio Piece Two" width="300" height="400" />
+			</a>
+			<h4> Email Attachment Class (php) </h4>
+			<p>
+				PHP Email Class, this allows developers to easily incorporate a full featured email class to
+				any application. It allows the easy sending of attachments too.
+			</p>
+		</div><!--/one-third column pf-block-->
+
+		<div class="sixteen columns">
+			<h3> PHP Email & Template System (ACW 3: Cutting Edge)</h3>
+			<hr>
+			<p>
+				In short I have added an extension to my <a href="http://www.phpcodemonkey.com/university/contact.html">contact form</a>. It allows the user to insert their
+				data. Once they submit the form, PHP will build a dynamic email template that looks pretty.
+			</p>
+			<p>My task was to make <strong>use of script/programming (including database) - JavaScript, jQuery, Ruby or PHP</strong>. For my task I chose to develop and extension for my website written in PHP because this is where my main skills are. I have developed a PHP email template system using static methods to make using my code a little bit more intuitive. The method calls look like this: <strong>Email::to("john.crossley@stu.mmu.ac.uk");</strong>. From this example you can see we are telling the email object to set the <strong>to</strong> email to john.crossley@stu.mmu.ac.uk. We set the other data in a similar way.</p>
+
+			<p>The system works by allowing a designer to code up a standard HTML email page and style it using CSS as normal. Whenever the designer needs to include unique data that they will provide from the contact form they simply insert placeholders like so <strong>&lt;h1&gt;Welcome, {{full_name}}&lt;/h1&gt;</strong>. After they have designed the template they store it in a folder called <strong>email_templates</strong>.</p>
+
+			<p>When the user fills out their information in the contact form it will submit the data to PHP and then PHP will parse the file and convert all the placeholders with the correct user data, and email the user.</p>
+
+			<a href="poster-crossley-10426443.pdf" class="button">View PDF</a> |
+			<a href="http://www.phpcodemonkey.com/university/contact.html" class="button">Demo this Extension</a>
+
+		</div><!--//sixteen-->
+
+		<footer role="contentinfo">
+			<p>
+				&copy; <a href="http://www.mmu.ac.uk/" title="MMU homepage">Manchester Metropolitan University 2013</a> | <a href="http://www.mmu.ac.uk/legal/" title="MMU Legal notice">Legal Notice</a> | <a href="http://www.ico.mmu.ac.uk/feedback.html" title="Feedback form to comment on this web page">Feedback</a> | <a href="http://validator.w3.org/check?uri=referer" title="W3C HTML Validation Service" >HTML Validation</a>
+			</p>
+		</footer>
+
+	</div><!-- container -->
+
+	<script src="javascripts/app.js"></script>
+</body>
+</html>

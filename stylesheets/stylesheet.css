@@ -1,0 +1,167 @@
+/**
+ * Main Stylesheet
+ * Copyright 2012, John Crossley
+ * http://john-crossley.me/
+ * 25/09/2012
+ **/
+/* Table of Contents
+==================================================
+	#site_styles
+	#page_styles
+	#typography
+	#media_queries
+	#font_face
+================================================== */
+/**
+ ==================================================
+ #site_styles
+ ================================================== */
+@media (max-width: 479px) {
+  nav img {
+    display: none; }
+
+  a[href="#scroll_top"] {
+    display: none !important; } }
+@media (max-width: 768px) {
+  #blog_information {
+    display: none; }
+
+  a[href="#scroll_top"] {
+    display: none !important; } }
+nav ul li a {
+  padding: 2px; }
+
+#navigation img {
+  float: right;
+  position: absolute;
+  top: 10px;
+  right: 0;
+  -webkit-transition-duration: 0.6s;
+  -moz-transition-duration: 0.6s;
+  -o-transition-duration: 0.6s;
+  transition-duration: 0.6s;
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  transition-property: transform;
+  overflow: hidden; }
+
+#navigation img:hover {
+  -webkit-transform:rotate(360deg);
+  -moz-transform:rotate(360deg);
+  -o-transform:rotate(360deg); }
+
+.skipto {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  display: none; }
+  .skipto ul li {
+    display: inline;
+    margin-right: 10px; }
+
+.hidden {
+  display: none; }
+
+.container > footer {
+  clear: both;
+  text-align: center;
+  padding-top: 20px; }
+
+textarea {
+  width: 350px;
+  height: 100px; }
+
+input[name=human] {
+  width: 80px; }
+
+i.required {
+  color: red;
+  font-size: 16px; }
+  i.required:after {
+    content: "*"; }
+
+.current a {
+  background: #fff8dc;
+  text-decoration: none; }
+
+/**
+ ==================================================
+ #typography
+ ================================================== */
+.container h1 {
+  margin-top: 40px; }
+
+a {
+  text-decoration: underline; }
+  a:hover {
+    background: #fff8dc; }
+  a:focus {
+    background: #fff8dc; }
+
+small.error {
+  color: red;
+  margin: 0;
+  padding: 0; }
+
+/* #Page Styles
+================================================== */
+nav ul li {
+  display: inline; }
+
+.by-block {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 10px; }
+
+.pf-block img {
+  border: 1px solid #ccc; }
+
+.author {
+  font-weight: bold; }
+
+.entry-content {
+  margin-bottom: 5px; }
+
+article {
+  margin-bottom: 10px; }
+
+.one-third ul {
+  width: 300px;
+  margin: 0 auto 10px auto; }
+  .one-third ul a {
+    border: none;
+    padding-right: 9px; }
+
+.social li {
+  display: inline; }
+
+.tweet {
+  font-size: 12px;
+  color: #3a8aca;
+  border: 1px solid #bce8f1;
+  background: #d9edf7;
+  padding: 5px;
+  white-space: nowrap; }
+  .tweet img {
+    position: relative;
+    top: 8px;
+    padding-right: 5px; }
+
+a[href="#scroll_top"] {
+  position: fixed;
+  bottom: 60px;
+  display: none; }
+
+.rollover {
+  opacity: 1;
+  position: absolute;
+  background: #ccc;
+  cursor: pointer;
+  height: 401px;
+  width: 301px;
+  z-index: 10;
+  opacity: 0; }
+
+.rollover:hover {
+  opacity: 0.1; }

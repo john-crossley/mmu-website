@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-gb"><!-- InstanceBegin template="/Templates/master.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+
+	<!--// Basic Page -->
+	<meta charset="utf-8">
+	<!-- InstanceBeginEditable name="doctitle" -->
+	<title>Adding Comments - Building a Blog with Rails - John Crossley, MMU</title>
+	<!-- InstanceEndEditable -->
+	<meta name="description" content="John Crossley shows you how to build a simple blog using the Ruby on Rails framework.">
+	<meta name="author" content="John Crossley">
+	<meta name="keywords" content="ruby on rails, tutorial, how to, make a blog, john crossley, manchester, mmu">
+
+	<!--// Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!--// CSS -->
+  <link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="../stylesheets/base.css">
+	<link rel="stylesheet" href="../stylesheets/master.css">
+
+	<!-- It's a must we need our amazing HTML5 Shim -->
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+
+	<!--// Primary Page Layout -->
+
+	<!-- Skip to, I've hidden this using CSS it
+		still appears to screen readers -->
+	<div class="skipto">
+		<ul>
+			<li><a href="#navigation">skip to navigation</a></li>
+			<li><a href="#main">skip to main content</a></li>
+		</ul>
+	</div><!--/skipto-->
+
+	<div class="container">
+
+		<div class="three columns sidebar">
+			<nav role="navigation" id="navigation">
+				<h3> <a href="index.html"><img src="../images/ruby.png" alt="Ruby-Lang Logo"></a> </h3>
+				<ul>
+					<!-- InstanceBeginEditable name="main_navigation" -->
+					<li><a href="index.html">Welcome</a></li>
+					<li><a href="introduction.html">Introduction</a></li>
+					<li><a href="setting_up.html">Setting Up</a></li>
+					<li><a href="first_scaffold.html">First Scaffold</a></li>
+					<li><a href="adding_comments.html" class="active">Adding Comments</a></li>
+					<li><a href="code_time.html">Code Time!</a></li>
+					<li><a href="style_me_up_baby.html">Style Me Up Baby</a></li>
+					<li><br></li>
+					<li><a href="further_reading.html">Further Reading</a></li>
+					<li><a href="../index.html">Back to Main Site</a></li>
+					<!-- InstanceEndEditable -->
+				</ul>
+			</nav>
+		</div><!--//three columns sidebar-->
+
+		<div class="twelve columns offset-by-one content">
+
+			<header role="banner">
+				<h1> Building a Blog with Rails </h1>
+				<hr class="large">
+			</header>
+
+			<div class="doc-block" role="main" id="main">
+
+				<h3>
+					<!-- InstanceBeginEditable name="main_content_header" -->
+					Adding Comments.
+					<!-- InstanceEndEditable -->
+				</h3>
+
+					<!-- InstanceBeginEditable name="main_content_intro" -->
+					<!-- InstanceEndEditable -->
+
+				<!-- InstanceBeginEditable name="main_content" -->
+				<p> Now that we have added the functionality to create posts. We need to allow our amazing users to comment right?
+				Ok so in this video we do just that and allow comments in our blog. </p>
+
+				<small>Code: </small>
+				<pre> rails generate scaffold comment post_id:integer name:string email:string comment:text</pre>
+
+				<iframe width="700" height="525" src="http://www.youtube.com/embed/xkiZXLAieKo?rel=0"></iframe>
+				<!-- InstanceEndEditable -->
+
+				<!-- InstanceBeginEditable name="main_content_footer_nav" -->
+				<p> Once done, you can click on either of the buttons below to continue or step back. </p>
+				<a href="first_scaffold.html">&laquo; Go Back</a> | <a href="code_time.html">Continue &raquo;</a>
+				<!-- InstanceEndEditable -->
+			</div><!--//doc-block-->
+
+			<hr>
+
+		</div><!--//twelve columns offset-by-one content-->
+
+		<div class="row">
+			<footer role="contentinfo">
+				<p>
+				&copy; <a href="http://www.mmu.ac.uk/" title="MMU homepage">Manchester Metropolitan University 2013</a> | <a href="http://www.mmu.ac.uk/legal/" title="MMU Legal notice">Legal Notice</a> | <a href="http://www.ico.mmu.ac.uk/feedback.html" title="Feedback form to comment on this web page">Feedback</a> | <a href="http://validator.w3.org/check?uri=referer" title="W3C HTML Validation Service" >HTML Validation</a>
+				</p>
+			</footer>
+		</div><!--//row-->
+
+	</div><!--//container-->
+
+	<script src="../javascripts/jquery.js"></script>
+	<script src="../javascripts/app.js"></script>
+
+<!--// End Document -->
+</body>
+<!-- InstanceEnd --></html>

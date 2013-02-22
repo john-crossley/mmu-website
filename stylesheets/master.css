@@ -1,0 +1,48 @@
+pre {
+	border: 1px solid #eee;
+	margin-bottom: 15px;
+	background: #f9f9f9;
+	font-family: "Menlo", "Lucida Console", "Courier New", serif;
+}
+
+nav { position: fixed; width: 160px; }
+nav h3 { margin-bottom: 20px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: bold; }
+nav h3 a { background: none; padding: 0; margin: 0; }
+nav h3 a:hover { background: none; }
+
+.large { border: none; height: 6px; background: #ebebeb; margin: 20px 0; }
+
+.hide { display: none; }
+
+.row { float: left; clear: right; }
+
+.container { margin-top: 60px; }
+@media (max-width: 767px) { .container nav { position: relative; width: 100%; }
+  .container nav img { width: 150px; height: 150px; float: right; margin-bottom: 10px; } }
+@media (max-width: 479px) { .container textarea { width: 100%; } }
+
+.intro { font-family: "Bitter"; background: #da5d5c; color: #fff; border-bottom: 4px solid #bd403e; padding: 5px; font-size: 16px; line-height: 1.5; }
+
+a { padding: 0 5px; text-decoration: none; background-color: #d9e6da; color: #222; }
+a:hover { background-color: #646763; color: #fff; }
+
+.red { color: #bd403e; }
+
+.active { border-bottom: 2px solid #646763; }
+
+textarea { width: 360px; height: 80px; }
+
+form input[type=text], form input[type=email], form textarea { margin-bottom: 0; }
+form button { margin-bottom: 0; }
+form .feedback { font-family: "Bitter"; }
+form .error { color: #bd403e; }
+form .success { /* Background Green: ##DFF0D8
+Border Green: #D6E9C6 */ color: #468847; }
+
+iframe { margin-bottom: 10px; }
+
+.content {
+	float: right !important; /** Don't hate me */
+}
+
+.skipto { display: none; }
